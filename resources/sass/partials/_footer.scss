@@ -1,18 +1,22 @@
 footer{
     .footer_top{
         background-image: url('../images/footer-bg.jpg');
+        padding: 30px 0;
         .footer_list{
-            margin: 30px 30px 30px 0;
+            margin-right: 50px;
             .footer_title{
                 color: white;
                 text-transform: uppercase;
                 font-weight: 600;
                 font-size: 16px;
+                margin-bottom: 10px;
+                margin-top: 20px;
             }
             .footer_link{
                 color: #959595;
                 font-weight: 600;
                 font-size: 13px;
+                margin: 5px 0;
             }
         }
     }
