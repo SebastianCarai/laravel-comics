@@ -1,0 +1,47 @@
+// JUMBOTRON
+.banner{
+    height: 400px;
+    overflow: hidden;
+}
+
+// COMICS LIST
+.comics_container{
+    background-color: #1c1c1c;
+    padding-bottom: 30px;
+    .blue_btn{
+        color: white;
+        text-transform: uppercase;
+        background-color: $primary_color;
+        padding: 15px 20px;
+        display: inline-block;
+        font-weight: 600;
+    }
+    .load_more{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+// BLUE BANNER
+.blue_banner{
+    background-color: $primary_color;
+    .my_container{
+        padding: 30px 0;
+        justify-content: space-between;
+        .banner_card{
+            color: white;
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+            img{
+                height: 50px;
+                width: auto;
+                margin-right: 8px;
+            }
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+}

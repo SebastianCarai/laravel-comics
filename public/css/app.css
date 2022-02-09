@@ -65,3 +65,77 @@ header .header_bottom .my_container li a.active {
   border-bottom: 4px solid #0282f9;
 }
 
+.banner {
+  height: 400px;
+  overflow: hidden;
+}
+
+.comics_container {
+  background-color: #1c1c1c;
+  padding-bottom: 30px;
+}
+
+.comics_container .blue_btn {
+  color: white;
+  text-transform: uppercase;
+  background-color: #0282f9;
+  padding: 15px 20px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.comics_container .load_more {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.blue_banner {
+  background-color: #0282f9;
+}
+
+.blue_banner .my_container {
+  padding: 30px 0;
+  justify-content: space-between;
+}
+
+.blue_banner .my_container .banner_card {
+  color: white;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.blue_banner .my_container .banner_card img {
+  height: 50px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.blue_banner .my_container .banner_card span {
+  font-size: 14px;
+}
+
+.comics {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.comics .single_card {
+  width: calc(16.6666666667% - 20px);
+  margin-top: 30px;
+}
+
+.comics .single_card .card_img {
+  height: 170px;
+  overflow: hidden;
+}
+
+.comics .single_card .comic_text {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
