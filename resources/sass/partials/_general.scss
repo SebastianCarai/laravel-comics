@@ -1,0 +1,27 @@
+// RESET
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// GENERAL
+img{
+    max-width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.d_flex{
+    display: flex;
+}
+
+// CONTAINERS
+.my_container{
+    width: 60%;
+    margin: auto;
+}

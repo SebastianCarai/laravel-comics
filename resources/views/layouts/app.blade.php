@@ -7,10 +7,11 @@
     <title>@yield('page_title')</title>
 
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    @yield('more_stylesheets')
 </head>
 <body>
     @include('partials.header')
-    
+
     <main>
         @yield('main_content')
     </main>
