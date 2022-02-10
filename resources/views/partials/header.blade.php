@@ -12,31 +12,31 @@
             <div>
                 <ul class="d_flex">
                     <li>
-                        <a href="#">CHARACTERS</a>
+                        <a href="{{route('characters')}}" class="{{Request::route()->getName() === 'characters' ? 'active' : ''}}">CHARACTERS</a>
                     </li>
                     <li>
-                        <a href="#" class="active">COMICS</a>
+                        <a href="{{route('comics')}}" class="{{Request::route()->getName() === 'comics' ? 'active' : ''}}">COMICS</a>
                     </li>
                     <li>
-                        <a href="#">MOVIES</a>
+                        <a href="#" class="{{Request::route()->getName() === 'movies' ? 'active' : ''}}">MOVIES</a>
                     </li>
                     <li>
-                        <a href="#">TV</a>
+                        <a href="#" class="{{Request::route()->getName() === 'tv' ? 'active' : ''}}">TV</a>
                     </li>
                     <li>
-                        <a href="#">GAMES</a>
+                        <a href="#" class="{{Request::route()->getName() === 'games' ? 'active' : ''}}">GAMES</a>
                     </li>
                     <li>
-                        <a href="#">COLLECTIBLES</a>
+                        <a href="#" class="{{Request::route()->getName() === 'collectibles' ? 'active' : ''}}">COLLECTIBLES</a>
                     </li>
                     <li>
-                        <a href="#">VIDEOS</a>
+                        <a href="#" class="{{Request::route()->getName() === 'videos' ? 'active' : ''}}">VIDEOS</a>
                     </li>
                     <li>
-                        <a href="#">FANS</a>
+                        <a href="#" class="{{Request::route()->getName() === 'fans' ? 'active' : ''}}">FANS</a>
                     </li>
                     <li>
-                        <a href="#">NEWS</a>
+                        <a href="# class="{{Request::route()->getName() === 'news' ? 'active' : ''}}">NEWS</a>
                     </li>
                     <li>
                         <a href="#">SHOP</a>

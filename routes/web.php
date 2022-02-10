@@ -20,8 +20,11 @@ Route::get('/', function () {
         'comics' => $comicsArray
     ];
     return view('main', $data);
-});
+})->name('comics');
 
+Route::get('/characters', function(){
+    return view('characters');
+})->name('characters');
 
 Route::get('/comic/{id}', function($id){
     $comics = config('comics');
@@ -38,5 +41,5 @@ Route::get('/comic/{id}', function($id){
     ];
 
 
-    return view('partials.single-comic', $data);
+    return view('single-comic', $data);
 })->name('comic');
