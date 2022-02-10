@@ -63,6 +63,9 @@ header .header_bottom .my_container li a.active {
   height: 400px;
   overflow: hidden;
 }
+.banner img {
+  width: 100%;
+}
 
 .comics_container {
   background-color: #1c1c1c;

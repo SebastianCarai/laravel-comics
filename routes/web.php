@@ -23,6 +23,20 @@ Route::get('/', function () {
 });
 
 
-Route::get('/comic', function(){
-    return view('partials.single-comic');
+Route::get('/comic/{id}', function($id){
+    $comics = config('comics');
+
+    $comic_to_show = false;
+
+    foreach($comics as $comic){
+        if ($comic['id'] == $id){
+            $comic_to_show = $comic;
+        }
+    }
+    $data = [
+        'comic_info' => $comic_to_show
+    ];
+
+
+    return view('partials.single-comic', $data);
 })->name('comic');
