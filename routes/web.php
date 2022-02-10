@@ -21,3 +21,8 @@ Route::get('/', function () {
     ];
     return view('main', $data);
 });
+
+
+Route::get('/comic', function(){
+    return view('partials.single-comic');
+})->name('comic');

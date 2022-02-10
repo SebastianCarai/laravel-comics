@@ -45,7 +45,7 @@ header .header_bottom .my_container .dc_header_logo {
   height: 70px;
 }
 header .header_bottom .my_container li {
-  line-height: 80px;
+  line-height: 75px;
   margin: 0 20px;
 }
 header .header_bottom .my_container li a {
@@ -102,6 +102,93 @@ header .header_bottom .my_container li a.active {
 }
 .blue_banner .my_container .banner_card span {
   font-size: 14px;
+}
+
+.single_comic .blue_bar {
+  height: 80px;
+  background-color: #0282f9;
+  position: relative;
+}
+.single_comic .blue_bar .single_comic_thumb {
+  position: absolute;
+  bottom: 15px;
+  border: 2px solid white;
+}
+.single_comic .comic_info_top {
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.single_comic .comic_info_top .availability_description {
+  width: 70%;
+}
+.single_comic .comic_info_top .availability_description .comic_title {
+  text-transform: uppercase;
+  color: #0b4763;
+  font-weight: 800;
+  font-size: 30px;
+}
+.single_comic .comic_info_top .availability_description .availability_button_container {
+  width: 100%;
+  padding: 20px 0;
+}
+.single_comic .comic_info_top .availability_description .availability_button_container .availavility_button {
+  padding: 15px;
+  font-weight: 600;
+  color: white;
+}
+.single_comic .comic_info_top .availability_description .availability_button_container .availavility_button.available {
+  background-color: #55ba59;
+}
+.single_comic .comic_info_top .availability_description .availability_button_container .availavility_button.right {
+  width: 80%;
+  border-right: 3px solid #225424;
+}
+.single_comic .comic_info_top .availability_description .availability_button_container .availavility_button.left {
+  width: 20%;
+  text-align: center;
+}
+.single_comic .comic_info_top .availability_description .availability_button_container .availavility_button .light_text {
+  color: #c2e6c3;
+}
+.single_comic .comic_info_top .availability_description .availability_button_container .availavility_button .light_text.availability {
+  float: right;
+}
+.single_comic .comic_info_top .adv {
+  text-align: right;
+  width: 25%;
+}
+.single_comic .comic_info_bottom {
+  background-color: #f6f6f6;
+  padding: 40px 0;
+}
+.single_comic .comic_info_bottom > div {
+  justify-content: space-between;
+}
+.single_comic .comic_info_bottom .comic_subtitle {
+  color: #0b4763;
+  font-weight: 600;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.single_comic .comic_info_bottom .comic_info_line {
+  padding: 10px 0;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 13px;
+  font-weight: 600;
+}
+.single_comic .comic_info_bottom .comic_info_line .line_title {
+  width: 35%;
+  color: #0b4763;
+}
+.single_comic .comic_info_bottom .comic_info_line .line_text {
+  width: 65%;
+}
+.single_comic .comic_info_bottom .talent {
+  width: 45%;
+}
+.single_comic .comic_info_bottom .specs {
+  width: 50%;
 }
 
 .comics {

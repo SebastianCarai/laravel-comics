@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 
-// COMICS LIST
+// *! COMICS LIST
 .comics_container{
     background-color: #1c1c1c;
     padding-bottom: 30px;
@@ -23,7 +23,7 @@
     }
 }
 
-// BLUE BANNER
+// *! BLUE BANNER
 .blue_banner{
     background-color: $primary_color;
     .my_container{
@@ -42,6 +42,102 @@
             span{
                 font-size: 14px;
             }
+        }
+    }
+}
+
+// *! SINGLE COMIC
+.single_comic{
+    // *? Blue bar & comic thumb
+    .blue_bar{
+        height: 80px;
+        background-color: $primary_color;
+        position: relative;
+        .single_comic_thumb{
+            position: absolute;
+            bottom: 15px;
+            border: 2px solid white;
+        }
+    }
+
+    // *? Comic info
+    // Top part
+    .comic_info_top{
+        justify-content: space-between;
+        padding: 50px 0;
+        .availability_description{
+            width: 70%;
+            .comic_title{
+                text-transform: uppercase;
+                color: $text_dark_color;
+                font-weight: 800;
+                font-size: 30px;
+            }
+            .availability_button_container{
+                width: 100%;
+                padding: 20px 0;
+                .availavility_button{
+                    padding: 15px;
+                    font-weight: 600;
+                    color: white;
+                    &.available{
+                        background-color: #55ba59;
+                    }
+                    &.right{
+                        width: 80%;
+                        border-right: 3px solid darken(#55ba59, 30%);
+                    }
+                    &.left{
+                        width: 20%;
+                        text-align: center;
+                    }
+                    .light_text{
+                        color: lighten(#55ba59, 30%);
+                        &.availability{
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+        .adv{
+            text-align: right;
+            width: 25%;
+        }
+    }
+
+    // Bottom part
+    .comic_info_bottom{
+        background-color: #f6f6f6;
+        padding: 40px 0;
+        &>div{
+            justify-content: space-between;
+        }
+        .comic_subtitle{
+            color: $text_dark_color;
+            font-weight: 600;
+            font-size: 23px;
+            margin-bottom: 20px;
+        }
+        .comic_info_line{
+            padding: 10px 0;
+            border-top: 1px solid #e4e4e4;
+            border-bottom: 1px solid #e4e4e4;
+            font-size: 13px;
+            font-weight: 600;
+            .line_title{
+                width: 35%;
+                color: $text_dark_color;
+            }
+            .line_text{
+                width: 65%;
+            }
+        }
+        .talent{
+            width: 45%;
+        }
+        .specs{
+            width: 50%;
         }
     }
 }

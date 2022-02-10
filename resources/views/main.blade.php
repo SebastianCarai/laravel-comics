@@ -8,9 +8,7 @@
 {{-- Main --}}
 @section('main_content')
     {{-- BANNER --}}
-    <section class="banner">
-        <img src="{{ asset('images/jumbotron.jpg') }}" alt="">
-    </section>
+    @include('components.jumbotron')
 
     {{-- COMICS LIST --}}
     <div class="comics_container">
